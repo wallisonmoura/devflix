@@ -4,7 +4,7 @@ import { ButtonLink } from "./styles";
 
 function Button(props) {
   return (
-    <ButtonLink href={props.href} className={props.className}>
+    <ButtonLink to={props.to} className={props.className}>
       {props.children}
     </ButtonLink>
   );
