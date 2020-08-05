@@ -1,13 +1,25 @@
-import React from "react";
+import React from 'react';
+import Proptypes from 'prop-types';
 
-import { ButtonLink } from "./styles";
+import { ButtonLink } from './styles';
 
-function Button(props) {
+function Button({ className, to, children }) {
   return (
-    <ButtonLink to={props.to} className={props.className}>
-      {props.children}
+    <ButtonLink to={to} className={className}>
+      {children}
     </ButtonLink>
   );
 }
+
+Button.defaultProps = {
+  to: '/',
+  className: '',
+};
+
+Button.propTypes = {
+  className: Proptypes.string,
+  to: Proptypes.string,
+  children: Proptypes.node.isRequired,
+};
 
 export default Button;

@@ -1,7 +1,7 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-import PageDefault from "../../../components/PageDefault";
+import PageDefault from '../../../components/PageDefault';
 
 // import { Container } from './styles';
 
