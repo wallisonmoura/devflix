@@ -1,9 +1,10 @@
-import React from "react";
+import React from 'react';
+import PropTypes from 'prop-types';
 
-import Menu from "../Menu";
-import Footer from "../Footer";
+import Menu from '../Menu';
+import Footer from '../Footer';
 
-import { Main } from "./styles";
+import { Main } from './styles';
 
 function PageDefault({ children }) {
   return (
@@ -14,5 +15,9 @@ function PageDefault({ children }) {
     </>
   );
 }
+
+PageDefault.propTypes = {
+  children: PropTypes.node.isRequired,
+};
 
 export default PageDefault;

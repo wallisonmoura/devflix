@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components';
 export const FormFieldWrapper = styled.div`
   position: relative;
   textarea {
-    min-height: 150px;
+    min-height: 100px;
   }
   input[type='color'] {
     padding-left: 56px;
@@ -44,7 +44,7 @@ export const Input = styled.input`
   border-bottom: 4px solid #53585d;
 
   padding: 16px 16px;
-  margin-bottom: 45px;
+  margin-bottom: 25px;
 
   resize: none;
   border-radius: 4px;
