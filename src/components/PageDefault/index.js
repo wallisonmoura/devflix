@@ -1,23 +1,18 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 import Menu from '../Menu';
 import Footer from '../Footer';
 
 import { Main } from './styles';
 
-function PageDefault({ children }) {
+function PageDefault({ children, paddingAll }) {
   return (
     <>
       <Menu />
-      <Main>{children}</Main>
+      <Main paddingAll={paddingAll}>{children}</Main>
       <Footer />
     </>
   );
 }
-
-PageDefault.propTypes = {
-  children: PropTypes.node.isRequired,
-};
 
 export default PageDefault;

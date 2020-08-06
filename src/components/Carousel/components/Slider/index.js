@@ -1,7 +1,8 @@
-import React from "react";
-import SlickSlider from "react-slick";
+import React from 'react';
+import PropTypes from 'prop-types';
+import SlickSlider from 'react-slick';
 
-import { Container } from "./styles";
+import { Container } from './styles';
 
 function Slider({ children }) {
   return (
@@ -9,7 +10,7 @@ function Slider({ children }) {
       <SlickSlider
         {...{
           dots: false,
-          infinite: false,
+          infinite: true,
           speed: 300,
           centerMode: false,
           variableWidth: true,
@@ -21,5 +22,9 @@ function Slider({ children }) {
     </Container>
   );
 }
+
+Slider.propTypes = {
+  children: PropTypes.node.isRequired,
+};
 
 export default Slider;

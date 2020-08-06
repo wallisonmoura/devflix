@@ -31,7 +31,7 @@ Label.Text = styled.span`
 `;
 
 export const Input = styled.input`
-  background: #53585d;
+  background: #666;
   color: #f5f5f5;
   display: block;
   width: 100%;
