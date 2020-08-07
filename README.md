@@ -1,68 +1,63 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Devflix
 
-## Available Scripts
+devflix is [Netflix](https://www.netflix.com/) style interface to post vídeos from [Youtube](https://www.youtube.com/) and  is part of course from [Alura](https://www.alura.com.br/) and it´s made with [React](https://reactjs.org). 
 
-In the project directory, you can run:
+---
 
-### `yarn start`
+# Guide
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* [Features](#features)
+* [Installation](#installation)
+* [Using](#using)
+* [Technologies](#technologies)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `yarn test`
+# Features
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+*  Users can create categories and chooser it´s colours.
+*  User can post videos on categories.
+*  We have Carousel to display previews.
+*  We are use [JSON Server](https://github.com/typicode/json-server)  to store files.
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+# Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**You will need install:**
 
-### `yarn eject`
+ [Node.js](https://nodejs.org/en/download/) <br />
+ [Yarn](https://yarnpkg.com/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**Cloning repository**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```git clone https://github.com/wallisonmoura/devflix```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+**Install dependencies for Backend, on backend folder**
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```yarn add```
 
-## Learn More
+**Configuration from BACKEND**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+check the REPOSITORIES folders to change the URL
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Using
 
-### Code Splitting
+```yarn run dev```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+# Technologies
 
-### Analyzing the Bundle Size
+* [NodeJS](https://nodejs.org/en/) to handle the server, 
+* [React](https://reactjs.org) to handle the rendering, 
+* [Styled Components](https://www.styled-components.com/) to handle components and styles, 
+* [React Slick](https://www.styled-components.com/) to handle carousel, 
+* [Prop types](https://www.npmjs.com/package/prop-types) for checking for React props, 
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+Thanks to:
+* [Mario Souto](https://www.linkedin.com/in/omariosouto/) 
+* [Juliana Negreiros](https://www.linkedin.com/in/juliananegreiros/) 
+* [Marco Bruno](https://www.linkedin.com/in/marcobrunobr/)
 
-### Making a Progressive Web App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+from [Alura](https://www.alura.com.br/).
+##
