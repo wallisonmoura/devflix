@@ -5,7 +5,7 @@ import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import videosRepository from '../../../repositories/videos';
-import categoriasRepository from '../../../repositories/categorias';
+import categoriasRepository from '../../../repositories/categories';
 
 import useForm from '../../../hooks/useForm';
 
@@ -77,10 +77,6 @@ function CadastroVideo() {
         />
 
         <Button type="submit">Cadastrar</Button>
-
-        {/* <Button as={Link} className="ButtonLink" to="/cadastro/categoria">
-          Cadastrar Categoria
-        </Button> */}
       </Form>
     </PageDefault>
   );

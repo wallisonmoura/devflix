@@ -4,7 +4,7 @@ import PageDefault from '../../components/PageDefault';
 import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
 
-import categoriasRepository from '../../repositories/categorias';
+import categoriasRepository from '../../repositories/categories';
 
 function Home() {
   const [dadosIniciais, setDadosIniciais] = useState([]);

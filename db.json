@@ -205,6 +205,24 @@
       "url": "https://www.youtube.com/watch?v=4zjn7A74kTc&list=PL5aY_NrL1rjspm_JxLrzjikPAA8rkrZjJ",
       "categoriaId": 6,
       "id": 27
+    },
+    {
+      "titulo": "Iniciando com Git ",
+      "url": "https://www.youtube.com/watch?v=MW7hrQe6aYo&list=PL85ITvJ7FLoh-1TFRDe7bHzAWY4DlIRtk",
+      "categoriaId": 6,
+      "id": 28
+    },
+    {
+      "titulo": "Freelancer, Síndrome do Impostor, Site para Portfólio? Tempo e Foco",
+      "url": "https://www.youtube.com/watch?v=hka7ay9F1kk",
+      "categoriaId": 6,
+      "id": 29
+    },
+    {
+      "titulo": "Diferenças entre Full Stack e Full Cycle",
+      "url": "https://www.youtube.com/watch?v=wR4mdkGHZG0",
+      "categoriaId": 6,
+      "id": 30
     }
   ]
 }
