@@ -26,7 +26,7 @@ devflix is [Netflix](https://www.netflix.com/) style interface to post vídeos f
 **You will need install:**
 
  [Node.js](https://nodejs.org/en/download/) <br />
- [Yarn](https://yarnpkg.com/)
+ [Yarn](https://yarnpkg.com/) or [Npm](https://www.npmjs.com/)
 
 **Cloning repository**
 
@@ -34,7 +34,7 @@ devflix is [Netflix](https://www.netflix.com/) style interface to post vídeos f
 
 **Install dependencies for Backend, on backend folder**
 
-```yarn add```
+```yarn add``` or ```npm install```
 
 **Configuration from BACKEND**
 
@@ -42,7 +42,7 @@ check the REPOSITORIES folders to change the URL
 
 # Using
 
-```yarn run dev```
+```yarn run dev``` or ```npm run dev```
 
 # Technologies
 
